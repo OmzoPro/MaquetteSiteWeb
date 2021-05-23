@@ -1,0 +1,42 @@
+body{
+    background: url('afi29.jpg') no-repeat fixed center;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.zoneInscript{
+    margin-top: 150px;
+    max-width: 400px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: violet 25px;
+}
+
+h2{
+    color:violet;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin: 10px 0;
+    background-color: transparent;
+    padding: 10px 6px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px violet solid;
+}
+
+button{
+    background-color: violet;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
