@@ -1,0 +1,81 @@
+
+body{
+	background-color: antiquewhite;
+}
+
+
+.model{
+	width: 320px;
+	margin-left: 50px;
+}
+.article1{
+	width: 500px;
+	margin-right: 100px;
+	text-align:justify;
+}
+
+.imgText{
+	display: flex;
+	justify-content: space-between;
+}
+
+.d1{
+	width: 250px;
+	height: 500;
+	margin: 50px auto;
+	box-shadow: 0px 15px 10px -5px #777 ;
+	background-color: antiquewhite;
+	background-size: contain;
+}
+
+.d2{
+	width: 250px;
+	height: 500;
+	padding-top: 75%;
+	box-shadow: 0px 15px 10px -5px #777 ;
+	background-color: antiquewhite;
+	background-size: contain;
+}
+
+.conteneur{
+	max-width: 250px;
+	margin: 50px auto;
+}
+
+@keyframes fondu {
+	0%{background-image: url("../images/enfant.jpg");}
+	33.33%{background-image: url("../images/directrice.jpg");}
+	66.67%{background-image: url("../images/femme.jpg");}
+	100%{background-image: url("../images/sty16.jpg");}
+	
+}
+
+.d1{
+	width: 600px;
+	height: 600;
+	margin: 50px auto;
+	box-shadow: 0px 15px 10px -5px #777;
+	background-color: antiquewhite;
+	background-size: contain;
+	animation: defilement1 12s linear infinite;
+ 
+}
+
+.conteneur{
+	max-width: 500px;
+	margin:50px auto;
+}
+
+.d2{
+	width: 600px;
+	height: 0;
+	padding-top: 75;
+	box-shadow: 0px 0px 10px #777;
+	background-color: antiquewhite;
+	background-size: contain;
+	animation: fondu 15s ease-in infinite both;
+}
+
+.d1:hover, .d2:hover{
+	animation-play-state:inherit;
+}

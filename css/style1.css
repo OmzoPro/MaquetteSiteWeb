@@ -1,0 +1,275 @@
+<<<<<<< HEAD
+
+body{
+	background-color: whitesmoke;
+	width: 100%;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+.section1{
+	background-image: url(../images/fnndd.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	border-bottom-right-radius:100px;
+	border-bottom-left-radius:100px;
+	padding-bottom: 20px;
+}
+.bground{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-image: url('../images/femme.jpg');
+
+	border: 1px solid black;
+	width: 95%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bground h1{
+	color: white;
+	margin-top: 50px;
+	padding-left: 50px;
+}
+.container{
+	border-radius: 20px;
+	height: 45%;
+	background-color: whitesmoke;
+	opacity: 0.3;
+	width: 50%;
+	margin-left: 27%;
+	margin-right: 27%;
+}
+.bground h3{
+	text-align: center;
+	padding: 25px;
+	color: black;
+}
+.title{
+	height: 25%;
+}
+.service{
+	width: 100%;
+	padding-right: 15%;
+	padding-left: 15%;
+	position: relative;
+	z-index: 1;
+	margin-top: -50px;
+	
+}
+.button {
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 20%;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+
+	color: white; 
+	border: 2px solid #4CAF50;
+ 	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn1{
+	background-image: url('../images/service1.jpg');	
+}
+.btn2{
+	background-image: url('../images/service2.jpg');	
+}
+.btn3{
+	background-image: url('../images/s2.jpg');	
+}
+
+.about1{
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.about{
+	margin-top: 20px;
+	display: block;
+	width: 60%;
+	vertical-align: top;
+	padding-right: 15%;
+	padding-left: 25%;
+}
+.about article{
+	border-radius: 25px;
+
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: block;
+	display: inline-block;
+	height: 50%;
+	width: 45%;
+}
+.aboutimg1 {
+	background-image: url(../images/meuf.jpg);
+}
+.aboutimg2 {
+	background-image: url(../images/mec.jpg);
+}
+.about aside{
+	padding: 30px;
+	border-radius: 25px;
+	border-style:solid;
+	text-align: center;
+	border-color: black;
+	border-width: 1px;
+	display: block;
+	display: inline-block;
+	height: 100%;
+	width: 45%;
+	vertical-align: top;
+}
+.about aside p{
+
+}
+.pt {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.pt img{
+	width: 100px;
+}
+.pt1 .pt2{
+	width: 45%;
+}
+.ptcontent{
+	display: block;
+	display: inline-block;
+	height: 50%;
+	width: 45%;
+	vertical-align: top;
+}
+.ptcontent img{
+width: 100%;
+}
+.register{
+	background-image: url(../images/register.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.containt{
+	display: inline-block;
+	width: 30%;
+	color: white;
+	margin: 5%;
+	vertical-align: top;
+}
+.btn-register{
+	margin-top: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 20px;
+
+	height: 50px;
+	width: 100%;
+
+	color: violet; 
+	border: 2px solid violet;
+ 	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.btn-register:hover {
+	background-color: violet;
+	color: white;
+}
+=======
+body{
+	background-color: antiquewhite;
+}
+
+
+.model{
+	width: 320px;
+	margin-left: 50px;
+}
+.article1{
+	width: 500px;
+	margin-right: 100px;
+	text-align:justify;
+}
+
+.imgText{
+	display: flex;
+	justify-content: space-between;
+}
+
+.d1{
+	width: 250px;
+	height: 500;
+	margin: 50px auto;
+	box-shadow: 0px 15px 10px -5px #777 ;
+	background-color: antiquewhite;
+	background-size: contain;
+}
+
+.d2{
+	width: 250px;
+	height: 500;
+	padding-top: 75%;
+	box-shadow: 0px 15px 10px -5px #777 ;
+	background-color: antiquewhite;
+	background-size: contain;
+}
+
+.conteneur{
+	max-width: 250px;
+	margin: 50px auto;
+}
+
+@keyframes fondu {
+	0%{background-image: url("../image/enfant.jpg");}
+	33.33%{background-image: url("../image/directrice.jpg");}
+	66.67%{background-image: url("../image/femme.jpg");}
+	100%{background-image: url("../image/sty16.jpg");}
+	
+}
+
+.d1{
+	width: 600px;
+	height: 600;
+	margin: 50px auto;
+	box-shadow: 0px 15px 10px -5px #777;
+	background-color: antiquewhite;
+	background-size: contain;
+	animation: defilement1 12s linear infinite;
+ 
+}
+
+.conteneur{
+	max-width: 500px;
+	margin:50px auto;
+}
+
+.d2{
+	width: 600px;
+	height: 0;
+	padding-top: 75;
+	box-shadow: 0px 0px 10px #777;
+	background-color: antiquewhite;
+	background-size: contain;
+	animation: fondu 15s ease-in infinite both;
+}
+
+.d1:hover, .d2:hover{
+	animation-play-state:inherit;
+}
+
+
+
+>>>>>>> 044af35d113d757ca97ac6ada1c183b8106e0f88
